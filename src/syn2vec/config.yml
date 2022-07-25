@@ -1,0 +1,21 @@
+use_gpu: true
+
+directories:
+    word_vectors: word_vectors/
+    wordsyns: /ws/ifp-54_2/hasegawa/harvill2/Fall_2021/NAACL2022/wordsyns/word2syns_by_lang
+    colex_graphs: colex_from_BabelNet/
+    plots: plots/
+    results: results/
+    cross_lingual_multisimlex: datasets/cross_lingual_multisimlex/xling_done/
+    BabelNetSynsetGlosses: save_BabelNetSynsetGlosses/
+    OMW_location: /home/harvill2/nltk_data/corpora/omw
+    simscore: simscore/
+    simscore_synsets: simscore_synsets/
+
+eval_languages: ["ar", "en", "es", "fi", "fr", "he", "pl", "ru", "zh"]
+
+model:
+    name: dummy
+
+
+
